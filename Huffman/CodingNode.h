@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CodingNode : NSObject
 ///ascll码
-@property (nonatomic,assign) int ascll_code;
+@property (nonatomic,assign) int unicode;
 
 ///huffman编码
 @property (nonatomic,readonly) NSString * huffmanCode;

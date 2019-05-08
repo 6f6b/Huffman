@@ -11,14 +11,13 @@
 @implementation HuffmanNode
 - (instancetype)init{
     if (self = [super init]) {
-        self.ascll_code = 10000;
     }
     return self;
 }
 
-- (instancetype)initWith:(int)ascll_code{
+- (instancetype)initWith:(int)unicode{
     if (self = [super init]) {
-        self.ascll_code = ascll_code;
+        self.unicode = unicode;
     }
     return self;
 }

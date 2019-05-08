@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0303E88E2283156700B1D3A3 /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = 0303E88D2283156700B1D3A3 /* Result.m */; };
 		032F4F652265C8A900273CCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F4F642265C8A900273CCB /* main.m */; };
-		032F4F6D2265CC0500273CCB /* ASCLLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F4F6C2265CC0500273CCB /* ASCLLNode.m */; };
 		032F4F702265CD7A00273CCB /* HuffmanGo.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F4F6F2265CD7A00273CCB /* HuffmanGo.m */; };
 		032F4F732265D5F500273CCB /* HuffmanNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F4F722265D5F500273CCB /* HuffmanNode.m */; };
 		032F4F762265E18600273CCB /* CodingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F4F752265E18600273CCB /* CodingNode.m */; };
@@ -28,10 +28,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0303E88C2283156700B1D3A3 /* Result.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Result.h; sourceTree = "<group>"; };
+		0303E88D2283156700B1D3A3 /* Result.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Result.m; sourceTree = "<group>"; };
 		032F4F612265C8A900273CCB /* Huffman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Huffman; sourceTree = BUILT_PRODUCTS_DIR; };
 		032F4F642265C8A900273CCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		032F4F6B2265CC0500273CCB /* ASCLLNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASCLLNode.h; sourceTree = "<group>"; };
-		032F4F6C2265CC0500273CCB /* ASCLLNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASCLLNode.m; sourceTree = "<group>"; };
 		032F4F6E2265CD7A00273CCB /* HuffmanGo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuffmanGo.h; sourceTree = "<group>"; };
 		032F4F6F2265CD7A00273CCB /* HuffmanGo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuffmanGo.m; sourceTree = "<group>"; };
 		032F4F712265D5F500273CCB /* HuffmanNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuffmanNode.h; sourceTree = "<group>"; };
@@ -39,7 +39,6 @@
 		032F4F742265E18600273CCB /* CodingNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodingNode.h; sourceTree = "<group>"; };
 		032F4F752265E18600273CCB /* CodingNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodingNode.m; sourceTree = "<group>"; };
 		032F4F7F2266FC6600273CCB /* liufeng.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = liufeng.txt; sourceTree = "<group>"; };
-		032F4F812266FCD800273CCB /*  更新操作流程.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " 更新操作流程.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				032F4F7F2266FC6600273CCB /* liufeng.txt */,
-				032F4F812266FCD800273CCB /*  更新操作流程.png */,
 				032F4F632265C8A900273CCB /* Huffman */,
 				032F4F622265C8A900273CCB /* Products */,
 			);
@@ -75,14 +73,14 @@
 			isa = PBXGroup;
 			children = (
 				032F4F642265C8A900273CCB /* main.m */,
-				032F4F6B2265CC0500273CCB /* ASCLLNode.h */,
-				032F4F6C2265CC0500273CCB /* ASCLLNode.m */,
 				032F4F712265D5F500273CCB /* HuffmanNode.h */,
 				032F4F722265D5F500273CCB /* HuffmanNode.m */,
 				032F4F742265E18600273CCB /* CodingNode.h */,
 				032F4F752265E18600273CCB /* CodingNode.m */,
 				032F4F6E2265CD7A00273CCB /* HuffmanGo.h */,
 				032F4F6F2265CD7A00273CCB /* HuffmanGo.m */,
+				0303E88C2283156700B1D3A3 /* Result.h */,
+				0303E88D2283156700B1D3A3 /* Result.m */,
 			);
 			path = Huffman;
 			sourceTree = "<group>";
@@ -156,8 +154,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				032F4F652265C8A900273CCB /* main.m in Sources */,
-				032F4F6D2265CC0500273CCB /* ASCLLNode.m in Sources */,
 				032F4F702265CD7A00273CCB /* HuffmanGo.m in Sources */,
+				0303E88E2283156700B1D3A3 /* Result.m in Sources */,
 				032F4F732265D5F500273CCB /* HuffmanNode.m in Sources */,
 				032F4F762265E18600273CCB /* CodingNode.m in Sources */,
 			);

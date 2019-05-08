@@ -19,12 +19,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) int bitCode;
 
 ///ascll码
-@property (nonatomic,assign) int ascll_code;
+@property (nonatomic,assign) int unicode;
 
 ///频率
 @property (nonatomic,assign) float frequency;
 
-- (instancetype)initWith:(int)ascll_code;
+- (instancetype)initWith:(int)unicode;
 @end
 
 NS_ASSUME_NONNULL_END
